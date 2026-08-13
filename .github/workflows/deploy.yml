@@ -1,0 +1,42 @@
+name: Deploy Hexo
+
+on:
+  push:
+    branches:
+      - source  # 当推送到 source 分支时触发
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout source code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Install Hexo and dependencies
+        run: |
+          npm install -g hexo-cli
+          npm install
+
+      - name: Generate static files
+        run: hexo g
+
+      # 重点：确保自定义域名不被覆盖
+      - name: Add CNAME for custom domain
+        run: echo "taologify.com" > public/CNAME
+
+      - name: Deploy to main branch
+        run: |
+          cd public
+          git init
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add .
+          git commit -m "Deploy by GitHub Actions"
+          git push --force https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git main:main
