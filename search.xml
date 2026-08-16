@@ -4,6 +4,35 @@
   
     
     <entry>
+      <title>Typora的安装破解与更换主题</title>
+      <link href="/2026/08/16/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/"/>
+      <url>/2026/08/16/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98/</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" class="aplayer-secondary-style-marker" href="\assets\css\APlayer.min.css"><script src="\assets\js\APlayer.min.js" class="aplayer-secondary-script-marker"></script><h1 id="Typora的安装破解与更换主题"><a href="#Typora的安装破解与更换主题" class="headerlink" title="Typora的安装破解与更换主题"></a>Typora的安装破解与更换主题</h1><h2 id="Typora的简介"><a href="#Typora的简介" class="headerlink" title="Typora的简介"></a>Typora的简介</h2><p>Typora是一款极简的Markdown编辑器</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816081819552.png" alt="image-20260816081819552"></p><h2 id="Typora的下载"><a href="#Typora的下载" class="headerlink" title="Typora的下载"></a>Typora的下载</h2><p>Typora的官方下载地址有 <a href="https://typora.io/">Typora官网</a> 和 <a href="https://www.typoraio.cn/">Typora官方中文站</a>两个，国内网络访问Typora官网可能出现无法访问的情况，建议国内使用Typora官方中文站进行下载</p><blockquote><p>[!TIP]</p><p>Typora在发布1.0正式版后转为付费软件，目前提供15天免费试用，本人使用的1.12.4版本，建议从官方中文站下载历史版本</p></blockquote><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816082821503.png" alt="image-20260816082821503"></p><p>进入 <a href="https://www.typoraio.cn/">Typora官方中文站</a> 后可点击历史版本下载对应版本安装包</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816081125258.png"></p><p>根据需要选择对应系统的安装包下载</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816083334156.png" alt="image-20260816083334156"></p><h2 id="Typora的安装"><a href="#Typora的安装" class="headerlink" title="Typora的安装"></a>Typora的安装</h2><p>双击<code>typora-setup-x64（v1.12.4）.exe</code>进行安装，可自定义安装路径。</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816084136326.png" alt="image-20260816084136326"></p><p>下一步后建议勾选创建桌面快捷方式</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816084241327.png" alt="image-20260816084241327"></p><p>点击安装</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816084452509.png" alt="image-20260816084452509"></p><p>安装的最后一步建议取消勾选Launch Typora，否则有概率激活失败。</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816084617695.png" alt="image-20260816084617695"></p><h2 id="Typora的破解"><a href="#Typora的破解" class="headerlink" title="Typora的破解"></a>Typora的破解</h2><p>安装完成后，复制下载的补丁文件<code>app.asar</code>，粘贴到安装路径的Typora文件夹-&gt;resources文件夹下，选择<strong>替换目标中的文件</strong>进行覆盖</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816085739604.png" alt="image-20260816085739604"></p><h2 id="完结撒花"><a href="#完结撒花" class="headerlink" title="完结撒花"></a>完结撒花</h2><p>替换完补丁文件后，运行Typora，点击菜单栏-&gt;”帮助”-&gt;”我的许可证”，即可看到Typora已激活。</p><p><img src="/Typora%E7%9A%84%E5%AE%89%E8%A3%85%E7%A0%B4%E8%A7%A3%E4%B8%8E%E6%9B%B4%E6%8D%A2%E4%B8%BB%E9%A2%98.assets/image-20260816090042365.png" alt="image-20260816090042365"></p><h2 id="Typora更换主题"><a href="#Typora更换主题" class="headerlink" title="Typora更换主题"></a>Typora更换主题</h2><p>进入 <a href="https://theme.typora.io/">主题下载</a> 页面下载喜欢的主题文件，解压后进入Typora，依次点击 <strong>文件 → 偏好设置 → 外观 → 打开主题文件夹</strong>，复制解压好的主题文件夹，到Typora的主题目录下，重启 Typora，然后在顶部菜单栏选择主题就可以切换成功了。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 教程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Markdown </tag>
+            
+            <tag> Typora </tag>
+            
+            <tag> 编辑器 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>常用电脑软件推荐（持续更新...）</title>
       <link href="/2026/08/14/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/"/>
       <url>/2026/08/14/%E5%B8%B8%E7%94%A8%E7%94%B5%E8%84%91%E8%BD%AF%E4%BB%B6%E6%8E%A8%E8%8D%90/</url>
